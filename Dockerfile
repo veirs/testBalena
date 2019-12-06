@@ -1,5 +1,8 @@
 FROM balenalib/raspberrypi4-64-python:3-stretch-run
 
+#switch on systemd init system in container
+ENV INITSYSTEM on
+
 # Set our working directory
 WORKDIR /usr/src/app
 
