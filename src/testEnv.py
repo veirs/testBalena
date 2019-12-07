@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-f = open("../DOTenv", "r")
+f = open("DOTenv", "r")
 
 f1 = f.readlines()
 
